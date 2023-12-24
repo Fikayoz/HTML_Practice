@@ -63,3 +63,12 @@ body{
 /* box-shadow */
 /* transition */
 /* ================================================================================================================= */
+
+/* Container Section */
+.container{
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

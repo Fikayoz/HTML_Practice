@@ -23,6 +23,7 @@ body{
     font-weight: 700;
 }
 
+/* ======================================= Research the properties used here ======================================= */
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -32,3 +33,33 @@ body{
     max-width: 1200px;
     margin: auto;
 }
+/* Notes */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS */
+/* Grid template area, Grid Layout, FlexGrid Layout, Main/Cross Axis */
+/* align-content, align-items, align-self */
+/* ================================================================================================================= */
+
+.contact-btn{
+    color: #2f2e41;
+    border: 1px solid #33333344;
+    width: 120px;
+    height: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all ease 0.3s;
+}
+
+/* ======================================= Research the properties used here ======================================= */
+.contact-btn:hover{
+    color: #ffffff;
+    background-color: #33b1f9;
+    border: none;
+    box-shadow: 2px 2px 30px rgba(0 0 0 0.07);
+    transition: all ease 0.3s; 
+}
+/* box-shadow */
+/* transition */
+/* ================================================================================================================= */

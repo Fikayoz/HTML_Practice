@@ -73,6 +73,8 @@ body{
     align-items: center;
 }
 
+/* css spaces and concatenation: https://stackoverflow.com/questions/16858926/class-names-concatenated-or-separated-by-a-space */
+
 .container-img{
     max-width: 500px;
 }
@@ -81,4 +83,45 @@ body{
     width: 100%;
     object-fit: contain;
     object-position: center;
+}
+
+.container-text{
+    width: 450px;
+}
+
+.container-text strong{
+    font-size: 2.3rem;
+    line-height: 45px;
+    color: #19191f;
+}
+
+.container-text p{
+    color: #777777;
+    margin: 10px 0px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;   
+}
+
+.notify-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notify-box .input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+}
+
+.notify-box .notify-btn{
+    min-width: 120px;
+    background-color: #33b1f9;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
